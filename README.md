@@ -13,7 +13,8 @@ The dataset used in this project was sourced from [Kaggle](https://www.kaggle.co
 - Class 3: Non Demented (3200 images)
 - Class 4: Very Mild Demented (2240 images)
 
-Each image in the dataset is resized to 128x128 pixels and normalized to pixel values between 0 and 1. These features directly contribute to model training and prediction by providing detailed information about brain structure and abnormalities associated with Alzheimer's disease.
+Each image in the dataset is resized to 128x128 pixels and normalized to pixel values between 0 and 1. 
+The primary feature is the MRI image itself, which captures the structural information of the brain. Since the images are preprocessed, intensity values likely represent tissue characteristics potentially indicative of Alzheimer's Disease progression. These features directly contribute to model training and prediction by providing detailed information about brain structure and abnormalities associated with Alzheimer's disease.
 
 ## 3. Optimization Techniques Used
 
